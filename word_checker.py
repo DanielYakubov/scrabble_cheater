@@ -40,10 +40,12 @@ class WordChecker(object):
         self.sym = pynini.SymbolTable.read_text(sym_file)
 
     def is_valid_scrabble_word(self, word: str) -> bool:
+        """checks if the param word is a valid word in the scrabble dictionary"""
         return self.sym.member(word)
 
     @classmethod
-    def score_word(cls, word: str) -> int:
+    def calculate_base_word_score(cls, word: str) -> int:
+        """calculated the score of the word using scrabble letter scores"""
         return sum([cls.letter_to_point_val[let] for let in word.upper()])
 
 
@@ -51,4 +53,4 @@ if __name__ == '__main__':
     wc = WordChecker()
     word = 'hack'
     print(wc.is_valid_scrabble_word(word))
-    print(wc.score_word(word))
+    print(wc.calculate_base_word_score(word))
