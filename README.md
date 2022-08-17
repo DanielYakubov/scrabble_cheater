@@ -10,7 +10,8 @@ See an example below:
 Enter your scrabble letters.
 
 Enter blank tiles as 0, if applicable:
->>>zhijk0o
+
+\>\>\>zhijk0o
 
 Possible words:
 Word: KOJI      Base Score (without blanks): 15    Needs Letters: {}
