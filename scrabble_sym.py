@@ -3,7 +3,7 @@ import pynini
 
 class ScrabbleSym(object):
     """parent class for storing some values. Probably overkill"""
-    sym_file = 'data/preprocessed_dict.sym'
+    sym_file = 'data/dict.sym'
     letter_to_point_val = {
         'A': 1,
         'E': 1,
@@ -33,6 +33,7 @@ class ScrabbleSym(object):
         'Z': 10
     }
     tile_dist = {
+        "0": 2,
         "A": 9,
         "B": 2,
         "C": 2,
