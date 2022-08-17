@@ -1,5 +1,5 @@
-import pynini
 from scrabble_sym import ScrabbleSym
+from collections import Counter
 
 
 class WordChecker(ScrabbleSym):
@@ -16,6 +16,14 @@ class WordChecker(ScrabbleSym):
     def calculate_base_word_score(cls, word: str) -> int:
         """calculated the score of the word using scrabble letter scores"""
         return sum([cls.letter_to_point_val[let] for let in word.upper()])
+
+    def possible_in_default_scrabble(self, string: str, blank_threshold=0) -> bool:
+        """checks if a str is possible with the tile distribution in scrabble"""
+        letter_counts = Counter(string)
+        for let, cnt in letter_counts.items():
+            if self.tile_dist[let] + blank_threshold < letter_counts[let]:
+                return False
+        return True
 
 
 if __name__ == '__main__':
