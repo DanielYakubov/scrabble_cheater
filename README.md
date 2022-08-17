@@ -13,7 +13,7 @@ Enter blank tiles as 0, if applicable:
 
 \>\>\>zhijk0o
 
-Possible words:
+Possible Words:
 Word: KOJI      Base Score (without blanks): 15    Needs Letters: {}
 Word: ZOO       Base Score (without blanks): 12    Needs Letters: {'O': 1}
 Word: KOOK      Base Score (without blanks): 12    Needs Letters: {'K': 1, 'O': 1}
