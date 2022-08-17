@@ -3,9 +3,8 @@ import pynini
 
 class ScrabbleSym(object):
     """parent class for storing some values. Probably overkill"""
-    sym_file = 'data/dict.sym'
+    sym_file = 'data/preprocessed_dict.sym'
     letter_to_point_val = {
-        '<BLANK>': 0,
         'A': 1,
         'E': 1,
         'I': 1,
