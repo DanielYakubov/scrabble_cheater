@@ -8,8 +8,10 @@ In a nutshell, given letters as an inputs, this code tries to find valid scrabbl
 See an example below:
 
 Enter your scrabble letters.
+
 Enter blank tiles as 0, if applicable:
 >>>zhijk0o
+
 Possible words:
 Word: KOJI      Base Score (without blanks): 15    Needs Letters: {}
 Word: ZOO       Base Score (without blanks): 12    Needs Letters: {'O': 1}
