@@ -15,33 +15,19 @@ Enter blank tiles as 0, if applicable:
 
 Possible Words:
 
-\Word: KOJI      Base Score (without blanks): 15    Needs Letters: {}
-
+Word: KOJI      Base Score (without blanks): 15    Needs Letters: {}
 Word: ZOO       Base Score (without blanks): 12    Needs Letters: {'O': 1}
-
 Word: KOOK      Base Score (without blanks): 12    Needs Letters: {'K': 1, 'O': 1}
-
 Word: HOOK      Base Score (without blanks): 11    Needs Letters: {'O': 1}
-
 Word: KHI       Base Score (without blanks): 10    Needs Letters: {}
-
 Word: JO        Base Score (without blanks): 9     Needs Letters: {}
-
 Word: KOI       Base Score (without blanks): 7     Needs Letters: {}
-
 Word: KI        Base Score (without blanks): 6     Needs Letters: {}
-
 Word: OOH       Base Score (without blanks): 6     Needs Letters: {'O': 1}
-
 Word: OHO       Base Score (without blanks): 6     Needs Letters: {'O': 1}
-
 Word: HI        Base Score (without blanks): 5     Needs Letters: {}
-
 Word: HO        Base Score (without blanks): 5     Needs Letters: {}
-
 Word: OH        Base Score (without blanks): 5     Needs Letters: {}
-
 Word: OI        Base Score (without blanks): 2     Needs Letters: {}
-
 
 Note that this code requires pynini, installation instructions here: https://pypi.org/project/pynini/
